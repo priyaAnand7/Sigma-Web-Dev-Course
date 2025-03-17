@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            font-size: 12px;
+        }
+
+        .box {
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* width: 1707px; */
+            width: 80vw;
+            height: 10vh;
+            margin: auto;
+            background-color: aquamarine;
+        }
+
+        .container {
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* width: 1707px; */
+            width: 80vw;
+            /* height: 80vh; */
+            min-height: 80vh;
+            margin: 23px auto;
+            font-size: 18px;
+            background-color: aquamarine;
+        }
+
+        .mycont {
+            box-sizing: border-box;
+            border: 2px solid black;
+            margin: 23px auto;
+            color: rgb(0, 0, 0);
+            font-size: 22px;
+            /* width: 100vmin; */
+            width: 80vw;
+        }
+
+        .container>div {
+            font-size: 2rem;
+            border: 2px solid red;
+            width: 50%;
+        }
+
+        .container>div>p {
+            font-size: 2rem;
+            border: 2px solid blue;
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        This is a box.
+    </div>
+
+    <div class="container">
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi aliquid atque quis dicta eligendi dolores
+            obcaecati sunt officia nobis consectetur. Porro at dolores atque quibusdam debitis, laudantium nihil
+            expedita delectus iure explicabo beatae aut illo excepturi, voluptates quia quasi distinctio, inventore
+            obcaecati nobis! Beatae, illum.
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur sunt, ratione dolorem quam
+                consequuntur magnam libero doloribus assumenda corporis sint nisi nam in?</p>
+        </div>
+    </div>
+
+    <div class="mycont">
+        I am another container.
+    </div>
+</body>
+
+</html>
